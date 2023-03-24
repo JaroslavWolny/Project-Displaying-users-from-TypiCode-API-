@@ -1,0 +1,86 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #222;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 48px;
+  text-shadow: 2px 2px 0px #666;
+}
+
+#search-input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+  font-size: 24px;
+  border-radius: 10px;
+  border: none;
+  background-color: #666;
+  color: #fff;
+  text-shadow: 2px 2px 0px #333;
+}
+
+input:focus {
+  outline: none;
+}
+
+#user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: #333;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  color: #fff;
+  text-shadow: 2px 2px 0px #666;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card p {
+  margin-bottom: 10px;
+  font-size: 19px;
+  color: #fff;
+}
+
+.card a {
+  color: #9e58ff;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
